@@ -19,7 +19,7 @@ from .utils import (
     verifyLoggerGroup,
 )
 
-LOGS = logging.getLogger("سورس سبايدر")
+LOGS = logging.getLogger("سورس الخليفه ")
 
 cmdhr = Config.COMMAND_HAND_LER
 
@@ -54,7 +54,7 @@ async def start_jmthon():
         tbot_id = await tbot.get_me()
         Config.TG_BOT_USERNAME = f"@{tbot_id.username}"
         sbb_b.tgbot = tbot
-        LOGS.info("•••  جار بدا سورس سبايدر •••")
+        LOGS.info("•••  جار بدا سورس الخليفه •••")
         CLIENTR = await jmthons(Config.STRING_SESSION, sbb_b, "STRING_SESSION")
         await tbot.start()
         total = CLIENTR
@@ -63,7 +63,7 @@ async def start_jmthon():
         LOGS.info(f"تم انتهاء عملية التنصيب بنجاح ✓")
         LOGS.info(
             f"لمعرفة اوامر السورس ارسل {cmdhr}الاوامر\
-        \nمجموعة قناة السورس  t.me/EE_20"
+        \nمجموعة قناة السورس  t.me/aaaalqp"
         )
         LOGS.info(f"⎊ عدد جلسات التنصيب الحالية = {str(total)} ⎊")
         await jmthonstart(total)
