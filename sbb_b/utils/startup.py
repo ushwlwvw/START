@@ -26,7 +26,7 @@ from .pluginmanager import load_module
 from .tools import create_supergroup
 
 ENV = bool(os.environ.get("ENV", False))
-LOGS = logging.getLogger("اعداد سبايدر")
+LOGS = logging.getLogger("اعداد الخليفه ")
 cmdhr = Config.COMMAND_HAND_LER
 
 if ENV:
@@ -54,9 +54,9 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await sbb_b(JoinChannelRequest("@EE_20"))
-        await sbb_b(JoinChannelRequest("@EE_20"))
-        await sbb_b(JoinChannelRequest("@EE_20"))
+        await sbb_b(JoinChannelRequest("@aaaalqp"))
+        await sbb_b(JoinChannelRequest("@aaaalqp"))
+        await sbb_b(JoinChannelRequest("@aaaalqp"))
     except BaseException:
         pass
 
@@ -68,7 +68,7 @@ async def mybot():
     f"ـ {rz_ment}"
     f"⪼ هذا هو بوت خاص بـ {rz_ment} يمكنك التواصل معه هنا"
     starkbot = await sbb_b.tgbot.get_me()
-    perf = "[  بـدأ سـورس سـبـايـدر ]"
+    perf = "[  بـدأ سـورس الخـليفـه ]"
     bot_name = starkbot.first_name
     botname = f"@{starkbot.username}"
     if bot_name.endswith("Assistant"):
@@ -93,9 +93,9 @@ async def startupmessage():
         if BOTLOG:
             Config.JMTHONLOGO = await sbb_b.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/b29c81c4e10cb4f7345d7.jpg",
-                caption="⎊ بــوت سـبايـدر يـعـمـل بـنـجـاح  **\n\n**⎊ ارسل `.الاوامر` لرؤية اوامر السورس**\n\n**⎊ قـنـاة سـورس سـبايـدر @EE_20",
-                buttons=[(Button.url("𓏺 ᥉᥆υᖇᥴᥱ ᥉ρᎥժᥱᖇ . 🕷 ˼", "https://t.me/EE_20"),)],
+                "https://telegra.ph/file/6d054fa5df62a75062ab4.jpg",
+                caption="⎊ بــوت الخـلـيفه يـعـمـل بـنـجـاح  **\n\n**⎊ ارسل `.الاوامر` لرؤية اوامر السورس**\n\n**⎊ قـنـاة سـورس الخليفه @aaaalqp",
+                buttons=[(Button.url("𓏺 ᥉᥆υᖇᥴᥱ ᥉ρᎥժᥱᖇ . 🕷 ˼", "https://t.me/aaaalqp"),)],
             )
     except Exception as e:
         LOGS.error(e)
