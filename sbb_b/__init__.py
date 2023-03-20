@@ -14,12 +14,12 @@ from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "3.2.0"
 __license__ = "GNU Affero General Public License v3.0"
-__author__ = "سورس سبايدر <https://github.com/sourcesemsem/PYROGRAM>"
-__copyright__ = f" حقوق سورس سبايدر (C) 2020 - 2022  {__author__}"
+__author__ = "سورس الخليفه <https://github.com/sourcesemsem/PYROGRAM>"
+__copyright__ = f" حقوق سورس الخليفه (C) 2020 - 2022  {__author__}"
 
 sbb_b.version = __version__
 sbb_b.tgbot.version = __version__
-LOGS = logging.getLogger("سورس سبايدر")
+LOGS = logging.getLogger("سورس الخليفه ")
 bot = sbb_b
 tbot = tgbot
 
@@ -28,7 +28,7 @@ jmthonversion = "7.2.0"
 
 
 def close_connection(*_):
-    print("تم اغلاق الاتصال بالسورس سبايدر")
+    print("تم اغلاق الاتصال بالسورس الخليفه ")
     runasync(sbb_b.disconnect())
     sys.exit(143)
 
