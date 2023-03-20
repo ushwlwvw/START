@@ -229,7 +229,7 @@ async def inline_handler(event):
             buttons = [
                 (
                     Button.inline("Stats", data="stats"),
-                    Button.url("DEV", "https://t.me/Tepthone"),
+                    Button.url("DEV", "https://t.me/aaaalqp"),
                 )
             ]
             ALIVE_PIC = gvarstatus("ALIVE_PIC")
@@ -422,7 +422,7 @@ async def inline_handler(event):
             _result = main_menu()
             result = builder.article(
                 title="sbb_b Help™",
-                description="**▾∮ قائمة التعليمات الخاصة ب تيبثون **",
+                description="**▾∮ قائمة التعليمات الخاصة ب الخليفه **",
                 text=_result[0],
                 buttons=_result[1],
                 link_preview=False,
@@ -558,10 +558,10 @@ async def inline_handler(event):
     else:
         buttons = [
             (
-                Button.url("قناة السورس", "t.me/Tepthone"),
+                Button.url("قناة السورس", "t.me/aaaalqp"),
                 Button.url(
                     "المطور",
-                    "t.me/PPF22",
+                    "t.me/H_M_Dr",
                 ),
             )
         ]
@@ -570,14 +570,14 @@ async def inline_handler(event):
             url=CATLOGO, size=0, mime_type="image/jpeg", attributes=[]
         )
         text, msg_entities = await event.client._parse_message_text(
-            "لجعل تيبثون من نصيبك!", "md"
+            "لجعل الخليفه من نصيبك!", "md"
         )
         result = types.InputBotInlineResult(
             id=str(uuid4()),
             type="photo",
-            title="[𝙏𝙀𝙋𝙏𝙃𝙊𝙉 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🧸♥](https://t.me/Tepthone)",
+            title="[𝙏𝙀𝙋𝙏𝙃𝙊𝙉 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🧸♥](https://t.me/aaaalqp)",
             description="لتنصيبه لك",
-            url="t.me/Tepthone",
+            url="t.me/aaaalqp",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
