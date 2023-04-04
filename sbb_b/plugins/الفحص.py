@@ -36,7 +36,7 @@ async def amireallyalive(event):
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "‌‎⿻┊‌‎‌‎"
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "[• 父 ✓ 𝚂𝙿𝙸𝙳𝙴𝚁 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 ✓ 父 •](t.me/EE_20)**"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "[• 父 ✓ 𝚂𝙿𝙸𝙳𝙴𝚁 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 ✓ 父 •](t.me/aaaalqp)**"
     JMTHON_IMG = gvarstatus("ALIVE_PIC")
     caption = jmthon_caption.format(
         ALIVE_TEXT=ALIVE_TEXT,
@@ -77,14 +77,14 @@ temp = """{ALIVE_TEXT}
 \n**{EMOJI} 𝙿𝚈𝚃𝙷𝙾𝙽   ➪︎ :** `{pyver}`
 \n**{EMOJI} 𝚄𝙿𝚃𝙸𝙼𝙴   ➪︎ :** `{uptime}`
 \n**{EMOJI} 𝙽 𝙰 𝙼 𝙴  ➪︎ :** {mention}
-\n**[• 父 ✓ 𝚂𝙿𝙸𝙳𝙴𝚁 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 ✓ 父 •](t.me/EE_20)"""
+\n**[• 父 ✓ 𝚂𝙿𝙸𝙳𝙴𝚁 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 ✓ 父 •](t.me/aaaalqp)"""
 
 
-def jmthonalive_text():
+def  jmthonalive_text ():
     EMOJI = gvarstatus("ALIVE_EMOJI") or "▿∲ "
-    jmthon_caption = "**سورس سبايدر يعمل بنجاح**\n"
+    jmthon_caption = "**سورس الخليفه يعمل بنجاح**\n"
     jmthon_caption += f"**{EMOJI} اصدار التيليثون :** `{version.__version__}\n`"
-    jmthon_caption += f"**{EMOJI} اصدار سبايدر :** `{jmthonversion}`\n"
+    jmthon_caption += f"**{EMOJI} اصدار الخليفه :** `{jmthonversion}`\n"
     jmthon_caption += f"**{EMOJI} اصدار البايثون :** `{python_version()}\n`"
     jmthon_caption += f"**{EMOJI} المالك:** {mention}\n"
     return jmthon_caption
@@ -100,15 +100,15 @@ async def repo(event):
     await event.delete()
 
 
-ROZ_PIC = "https://telegra.ph/file/b29c81c4e10cb4f7345d7.jpg"
+ROZ_PIC = "https://telegra.ph/file/6d054fa5df62a75062ab4.jpg"
 RAZAN = Config.TG_BOT_USERNAME
 ROZ_T = (
-    f"**⎊ بوت سبايدر يعمل بنجاح 🤍،**\n"
-    f"**   ⎊ اصدار التليثون :** `1.23.0\n`"
-    f"**   ⎊ اصدار سبايدر :** `4.0.0`\n"
-    f"**   ⎊ البوت المستخدم :** `{RAZAN}`\n"
-    f"**   ⎊ اصدار البايثون :** `3.9.6\n`"
-    f"**   ⎊ المستخدم :** {mention}\n"
+    f"**⌔︙ بوت الخليفه يعمل بنجاح 🤍،**\n"
+    f"**   ⌔︙ اصدار التليثون :** `1.23.0\n`"
+    f"**   ⌔︙ اصدار الخليفه :** `4.0.0`\n"
+    f"**   ⌔︙ البوت المستخدم :** `{RAZAN}`\n"
+    f"**   ⌔︙ اصدار البايثون :** `3.9.6\n`"
+    f"**   ⌔︙ المستخدم :** {mention}\n"
 )
 
 if Config.TG_BOT_USERNAME is not None and tgbot is not None:
@@ -122,8 +122,8 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         if query.startswith("السورس") and event.query.user_id == sbb_b.uid:
             buttons = [
                 [
-                    Button.url("𓏺 ᥉᥆υᖇᥴᥱ ᥉ρᎥժᥱᖇ . 🕷 ˼", "t.me/EE_20"),
-                    Button.url("★⃝➼𝕆𝕊𝔸𝕄𝔸 . 🕷 ˼", "https://t.me/WWWL5"),
+                    Button.url("𓏺 ᥉᥆υᖇᥴᥱ • 𝗖𝗔𝗟𝗜𝗣𝗛 . 🕷 ˼", "t.me/aaaalqp"),
+                    Button.url("★⃝➼𝕆𝕊𝔸𝕄𝔸 . 🕷 ˼", "https://t.me/H_M_Dr"),
                 ]
             ]
             if ROZ_PIC and ROZ_PIC.endswith((".jpg", ".png", "gif", "mp4")):
