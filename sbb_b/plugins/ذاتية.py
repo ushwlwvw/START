@@ -29,4 +29,4 @@ async def tf3el(event):
     global tepthonself
     if tepthonself:
         result = await event.download_media()
-        await sbb_b.send_file("me", result, caption="⎊ تم بنجاح الحفظ بواسطة @EE_20")
+        await sbb_b.send_file("me", result, caption="⌔︙ تم بنجاح الحفظ بواسطة @H_M_Dr")
