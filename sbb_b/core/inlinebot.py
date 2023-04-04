@@ -30,7 +30,7 @@ from .logger import logging
 LOGS = logging.getLogger(__name__)
 
 BTN_URL_REGEX = re.compile(r"(\[([^\[]+?)\]\<buttonurl:(?:/{0,2})(.+?)(:same)?\>)")
-CATLOGO = "https://telegra.ph/file/5a8497c00a8ce84eb97f8.jpg"
+CATLOGO = "https://telegra.ph/file/6d054fa5df62a75062ab4.jpg"
 tr = Config.COMMAND_HAND_LER
 
 
@@ -53,7 +53,7 @@ def ibuild_keyboard(buttons):
 
 
 def main_menu():
-    text = f"**▾∮ مرحبا عزيزي {mention}**\n**▾اليكَ قائمة بازرار مضمنة لاوامر ↫**⍣ⵧⵧⵧⵧⵧ᥉ρᎥժᥱᖇⵧⵧⵧⵧⵧ⍣**\n[᥉ρᎥժᥱᖇ ᴜsᴇʀʙᴏᴛ ♥](https://t.me/EE_20)\n\n"
+    text = f"**▾∮ مرحبا عزيزي {mention}**\n**▾اليكَ قائمة بازرار مضمنة لاوامر ↫**⍣ⵧⵧⵧⵧⵧ𝗖𝗔𝗟𝗜𝗣𝗛ⵧⵧⵧⵧⵧ⍣**\n[• 𝗖𝗔𝗟𝗜𝗣𝗛](https://t.me/aaaalqp)\n\n"
     buttons = [
         (Button.inline("معلومات الملفات 🗂", data="check"),),
         (
