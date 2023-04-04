@@ -39,17 +39,17 @@ async def amireallyalive(event):
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "  - "
     CUSTOM_ALIVE_TEXT = gvarstatus("ALIVE_TEXT")
-    CAT_IMG = " https://telegra.ph/file/351833e9422b1b7e8ac55.jpg "
+    CAT_IMG = " https://telegra.ph/file/6d054fa5df62a75062ab4.jpg "
     if CAT_IMG:
         CAT = [x for x in CAT_IMG.split()]
         A_IMG = list(CAT)
         PIC = random.choice(A_IMG)
-        cat_caption = f"هـذا هـو مـطـور سـورس سـبايدر\n"
-        cat_caption += f"✛━━━[𓏺 ᥉᥆υᖇᥴᥱ ᥉ρᎥժᥱᖇ . 🕷 ˼](https://t.me/EE_20)━━━✛\n\n"
-        cat_caption += f"⎊ قـناة الـسـورس :  [『 𓏺 ᥉᥆υᖇᥴᥱ ᥉ρᎥժᥱᖇ . 🕷 ˼ 』➯](https://t.me/EE_20)\n\n"
-        cat_caption += f"⎊ جـروب الـسـورس  : [『 𓏺 ᥉ρᎥժᥱᖇ ᘜᖇ᥆υρ . 🕷 』➯](https://t.me/EE_47)\n\n"
-        cat_caption += f"⎊ مـبرمج الـسورس : [『 ★⃝➼𝕆𝕊𝔸𝕄𝔸 . 🕷 ˼ 』➯](https://t.me/WWWL5)\n\n"
-        cat_caption += f"✛━━━[𓏺 ᥉᥆υᖇᥴᥱ ᥉ρᎥժᥱᖇ . 🕷 ˼](https://t.me/EE_20)━━━✛\n\n"
+        cat_caption = f"هـذا هـو مـطـور سـورس الخليفه \n"
+        cat_caption += f"✛━━━[𓏺 ᥉᥆υᖇᥴᥱ • 𝗖𝗔𝗟𝗜𝗣𝗛 . 🕷 ˼](https://t.me/aaaalqp)━━━✛\n\n"
+        cat_caption += f"⌔︙ قـناة الـسـورس :  [『 𓏺 ᥉᥆υᖇᥴᥱ ᥉ρᎥժᥱᖇ . 🕷 ˼ 』➯](https://t.me/aaaalqp)\n\n"
+        cat_caption += f"⌔︙ جـروب الـسـورس  : [『 𓏺 ᥉ρᎥժᥱᖇ ᘜᖇ᥆υρ . 🕷 』➯](https://t.me/aaaalqp)\n\n"
+        cat_caption += f"⌔︙ مـبرمج الـسورس : [『 ★⃝➼𝕆𝕊𝔸𝕄𝔸 . 🕷 ˼ 』➯](https://t.me/H_M_Dr)\n\n"
+        cat_caption += f"✛━━━[𓏺 ᥉᥆υᖇᥴᥱ • 𝗖𝗔𝗟𝗜𝗣𝗛  . 🕷 ˼](https://t.me/aaaalqp)━━━✛\n\n"
         await event.client.send_file(
             event.chat_id, PIC, caption=cat_caption, reply_to=reply_to_id
         )
